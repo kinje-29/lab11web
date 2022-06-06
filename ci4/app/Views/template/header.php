@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title><?= $title; ?></title>
-  <link rel="stylesheet" href="<?= base_url('public/style.css'); ?>">
+  <link rel="stylesheet" href="<?= base_url('/style.css'); ?>">
 </head>
 
 <body>
@@ -12,12 +12,6 @@
     <header>
       <h1>Layout Sederhana</h1>
     </header>
-    <nav>
-      <a href="<?= base_url('index.php/Home'); ?>" class="active">Home</a>
-      <a href="<?= base_url('public/artikel'); ?>">Artikel</a>
-      <a href="<?= base_url('public/about'); ?>">About</a>
-
-      <a href="<?= base_url('public/contact'); ?>">Kontak</a>
-    </nav>
+    <nav> <a href="<?= base_url('/'); ?>" class="active">Home</a> <a href="<?= base_url('/artikel'); ?>">Artikel</a> <a href="<?= base_url('/about'); ?>">About</a> <a href="<?= base_url('/contact'); ?>">Kontak</a> </nav>
     <section id="wrapper">
       <section id="main">
