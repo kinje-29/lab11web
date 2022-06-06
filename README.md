@@ -193,3 +193,35 @@ Laporan Praktikum
 
 ### Tugas
 
+Pada bagian views buat file baru dengan nama contact.php lalu isi kode seperti berikut
+
+![kontak.png](img/kontak.png)
+
+Pada bagian views buat file baru dengan nama artikel.php lalu isi kode seperti berikut
+
+![arikel.php](img/artikel.png)
+
+Pada Bagian Controllers Page.php rubah bagian contact dan buat parameter baru seperti dibawah ini
+
+![artikel1.png](img/artikel1.png)
+
+Pada Bagiab Routes.php tambah kode seperti berikut
+
+![artikel2.png](img/artikel2.png)
+
+lalu akses link dibawah ini 
+http://localhost:8080/artikel
+
+![akhir_artikel.png](img/akhir_artikel.png)
+
+Membuat File index.php di bagian views
+
+![index.png](img/index.png)
+
+Merubah isi Home.php pada bagian Controllers
+
+![home.png](img/home.png)
+
+lalu akses link http://localhost:8080/
+
+![home1.png](img/home1.png)

@@ -8,3 +8,13 @@ CRITICAL - 2022-06-06 01:48:42 --> syntax error, unexpected token "}", expecting
 #6 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #8 {main}
+CRITICAL - 2022-06-06 02:39:22 --> Invalid file: aerikel.php
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('aerikel.php')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1089): CodeIgniter\View\View->render('aerikel', Array, true)
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\Page.php(34): view('aerikel', Array)
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

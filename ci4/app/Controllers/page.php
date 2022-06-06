@@ -17,8 +17,26 @@ class Page extends BaseController
 
   public function contact()
   {
-    echo "Ini halaman Contact";
+    return view(
+      'contact',
+      [
+        'title' => 'Halaman Contact',
+        'content' => 'Ini adalah halaman Contact yang menjelaskan tentang isi halaman ini.'
+      ]
+    );
   }
+
+  public function artikel()
+  {
+    return view(
+      'artikel',
+      [
+        'title' => 'Halaman Artikel',
+        'content' => 'Ini adalah halaman Artikel yang menjelaskan tentang isi halaman ini.'
+      ]
+    );
+  }
+
   public function faqs()
   {
     echo "Ini halaman FAQ";
